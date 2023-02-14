@@ -32,7 +32,7 @@ function generatePassword() {
     let chooseNumericCharacter = confirm("Click OK to confirm if you would like to include numeric characters");    
    
      
-      while(chooseUpperCase === false && chooseLowerCase === false && confirmSpecialCharacter === false && confirmNumericCharacter === false) {
+      while(chooseUpperCase === false && chooseLowerCase === false && chooseSpecialCharacter === false && chooseNumericCharacter === false) {
         alert("You must choose at least one parameter");
         let chooseLowerCase = confirm("Click OK to confirm if you would like to include lowercase characters");
         let chooseUpperCase = confirm("Click OK to confirm if you would like to include uppercase characters");  
