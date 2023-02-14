@@ -26,8 +26,8 @@ function generatePassword() {
 
       alert(`Your password will have ${chooseLength} characters`);
 
-    let chooseowerCase = confirm("Click OK to confirm if you would like to include lowercase characters");
-    let choosepperCase = confirm("Click OK to confirm if you would like to include uppercase characters");  
+    let chooseLowerCase = confirm("Click OK to confirm if you would like to include lowercase characters");
+    let chooseUpperCase = confirm("Click OK to confirm if you would like to include uppercase characters");  
     let chooseSpecialCharacter = confirm("Click OK to confirm if you would like to include special characters");
     let chooseNumericCharacter = confirm("Click OK to confirm if you would like to include numeric characters");    
    
